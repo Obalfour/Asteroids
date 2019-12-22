@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="@string/appTitle"
+        android:textColor="#FFC107"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/press_start_2p"
+        android:onClick="startGame"
+        android:text="@string/Begin"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/press_start_2p"
+        android:onClick="startPreferences"
+        android:text="@string/Configure" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/press_start_2p"
+        android:onClick="startAbout"
+        android:text="@string/moreInfo" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/press_start_2p"
+        android:onClick="startScoreboard"
+        android:text="@string/Scoreboard" />
+</LinearLayout>

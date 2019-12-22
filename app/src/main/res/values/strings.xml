@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Asteroides</string>
+    <string name="Begin">Jugar</string>
+    <string name="Configure">Configurar</string>
+    <string name="moreInfo">Acerca de </string>
+    <string name="Scoreboard">Puntuaciones</string>
+    <string name="appTitle">Asteroides</string>
+   // <string name="action_settings"> Configuración </string>
+</resources>

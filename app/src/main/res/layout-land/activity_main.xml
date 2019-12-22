@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainActivity" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appTitle"
+        android:fontFamily="@font/press_start_2p"
+        android:textColor="#FFC107"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+
+            <Button
+                android:id="@+id/button01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="@font/press_start_2p"
+                android:onClick="startGame"
+                android:text="@string/Begin" />
+
+            <Button
+                android:id="@+id/button02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="@font/press_start_2p"
+                android:onClick="startPreferences"
+                android:text="@string/Configure" />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/button03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="@font/press_start_2p"
+                android:onClick="startAbout"
+                android:text="@string/moreInfo" />
+
+            <Button
+                android:id="@+id/button04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="@font/press_start_2p"
+                android:onClick="startScoreboard"
+                android:text="@string/Scoreboard" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
